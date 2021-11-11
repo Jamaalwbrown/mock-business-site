@@ -1,0 +1,153 @@
+html { 
+    background: url("images/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg") no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+  body {
+      font-family: 'Stick+No+Bills';
+      color: white;
+      text-align: center;
+      font-size: 22px;
+  }
+
+  header {
+      font-family: 'Orbitron';
+      color: white;
+  }
+
+  .navbar.container {
+      display: flex;
+      flex-flow: row wrap;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  .navbar {
+      justify-content: center;
+  }
+
+  .navbar a {
+      display: block;
+      padding: 14px 16px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: hotpink;
+      text-decoration: none;    
+  }
+
+  a:hover {
+      color:yellow;
+      text-decoration: none;  
+  }
+
+  #vision-container .content {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+  }
+
+
+  #product-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  #services-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  #team-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .product {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team {
+    display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      padding: 5px;
+      min-width: 240px;
+      max-width: 400px;
+      font-weight: bold;
+}
+
+  .product-image {
+      height: 300px;
+      width: 300px;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .service-image {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product span {
+    padding: 5px;
+    min-width: 800px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+
+}
+
+.services span {
+    padding: 5px;
+    min-width: 800px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+
+}
+
+.team h2 {
+    margin: 2%;
+}
+
+.work-title{
+    margin: 0%;
+    text-decoration: underline;
+}
+
+.contact container {
+    display: flex;
+}
+
+.contact copyright {
+    display: flex;
+}
